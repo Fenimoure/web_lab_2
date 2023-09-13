@@ -1,0 +1,78 @@
+@import 'fonts.css';
+
+body {
+  font-family: 'Cantarell', sans-serif;
+  color: white;
+  background-color: #242424;
+  padding: 1%;
+}
+
+h1, h2 {
+  font-size: 14px;
+  text-align: center;
+  /*padding: 2%;*/
+}
+
+img {
+  border-radius: 12px;
+}
+
+div {
+  margin: auto;
+  width: 40%;
+  height: fit-content;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 1%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.36);
+}
+
+img {
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  padding: 1%;
+}
+
+header {
+  margin: auto;
+  width: 40%;
+  vertical-align: center;
+  padding-bottom: 2%;
+}
+
+header button {
+  height: 100%;
+  float: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+header h1 {
+  position: relative;
+  vertical-align: center;
+}
+
+footer {
+  width: 40%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+footer a, a:visited {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

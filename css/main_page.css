@@ -1,0 +1,15 @@
+@import "main.css";
+
+body {
+  color: rgb(150, 0, 0);
+  background-color: rgb(20, 22, 20);
+}
+
+a {
+  color: rgb(250, 250, 180);
+}
+
+.centered_header {
+  text-align: center;
+  text-transform: uppercase;
+}
